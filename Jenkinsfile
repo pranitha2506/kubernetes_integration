@@ -22,7 +22,7 @@ pipeline{
     }
     post{
         success{
-            echo the application run successfully
+            echo the application run successfully.
         }
         failure{
             echo the application failed check logs.
