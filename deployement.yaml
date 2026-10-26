@@ -1,0 +1,16 @@
+version:app/v1
+kind:deployement
+metadata:
+  metalabels:
+      namr:kubeimage1:
+      sprc:
+      replicas:4
+      selector:
+      labels:
+      name:kubeimage1
+      templates:
+      container:
+      spec:
+      name:kubeimage1
+      imafe:
+      -port:containerport

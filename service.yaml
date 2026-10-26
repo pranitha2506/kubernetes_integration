@@ -1,0 +1,9 @@
+version:v1
+kind:service
+metadata:
+name:kubeimage1
+port:
+protocol:TCP
+port:5000
+targetport:500
+NodePort:80500
